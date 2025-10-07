@@ -25,8 +25,12 @@
   list-style: none;
   font-weight: bold;
 }
+.headbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
 .rightbar h1 {
-  padding-top: 20px;
   font-size: 20px;
 }
 .rightbar h2,
@@ -36,26 +40,25 @@ h3 {
 .rightbar h2 {
   font-size: 20px;
 }
-.rightbar h3 {
-  padding-bottom: 20px;
-}
 .drop ul {
   display: flex;
   gap: 30px;
   list-style: none;
   justify-content: center;
-  padding-left: 20px;
-  padding-right: 20px;
   font-size: 15px;
-  padding-top: 5px;
   align-items: center;
+  padding: 10px 20px;
+}
+.drop ul li a {
+  text-decoration: none;
+  color: black;
 }
 .drop {
-  height: 30px;
+  height: 40px;
   backdrop-filter: contrast(0.5);
   align-items: center;
 }
-.hero{  
+.hero {
   background-image: url("https://gpmigration.com/images/course-3-img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -74,7 +77,7 @@ h3 {
 .hero-text h3 {
   font-size: 22px;
   font-weight: bold;
-  letter-spacing: 1px; 
+  letter-spacing: 1px;
   color: white;
   padding-left: 40px;
   margin-bottom: 1.2em;
@@ -94,7 +97,7 @@ h3 {
   font-size: 20px;
 }
 
-.hero-text .button {
+.hero-text button {
   display: inline-block;
   margin-top: 20px;
   margin-left: 25px;
@@ -104,6 +107,7 @@ h3 {
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
+  border-style: none;
 }
 
 .hero-form {
@@ -112,7 +116,7 @@ h3 {
   padding: 25px;
   border-radius: 10px;
   width: 350px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .hero-form h2 {
@@ -136,11 +140,107 @@ h3 {
 }
 
 .hero-form button {
-  padding: 10px;
+  padding: 0.5rem 4rem;
   background: #00b140;
   color: white;
   border: none;
   font-size: 15px;
   font-weight: bold;
   border-radius: 5px;
+}
+.aboutsection h1 a {
+  color: rgb(98, 97, 97);
+  font-size: 18px;
+  padding-left: 20px;
+}
+.aboutsection h2 {
+  padding-left: 20px;
+}
+.aboutsection span {
+  font-size: 18px;
+  font-weight: bold;
+}
+.aboutsection p1 {
+  padding-left: 45px;
+  padding-right: 20px;
+  display: block;
+  font-size: 19px;
+  padding-top: 10px;
+}
+.aboutsection p2 {
+  padding-left: 45px;
+  padding-right: 20px;
+  display: block;
+  font-size: 19px;
+  padding-top: 20px;
+}
+.section h1 a {
+  color: rgb(118, 118, 118);
+  font-size: 15px;
+  font-weight: normal;
+}
+.section h1 {
+  text-align: center;
+  padding-top: 60px;
+}
+.section h2 {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  width: 540px;
+  margin: auto;
+}
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+.box1 {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.box2 {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.box3 {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.box4 {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.box5 {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+.boxes img {
+  height: 150px;
+  width: 180px;
+}
+.boxes h3 {
+  color: black;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.boxes a{
+  text-decoration: none;
+color: black;
+font-weight: 500;
+}
+.boxes p {
+  color: black;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+
 }
