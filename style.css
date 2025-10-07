@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
   font-family: "Poppins", sans-serif;
 }
 .navbaar {
@@ -55,4 +54,93 @@ h3 {
   height: 30px;
   backdrop-filter: contrast(0.5);
   align-items: center;
+}
+.hero{  
+  background-image: url("https://gpmigration.com/images/course-3-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h3 {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px; 
+  color: white;
+  padding-left: 40px;
+  margin-bottom: 1.2em;
+}
+
+.hero-text h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 40px;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+
+.hero-text ul {
+  padding-left: 60px;
+  list-style: disc inside;
+  font-size: 20px;
+}
+
+.hero-text .button {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 25px;
+  padding: 12px 20px;
+  background: #00b140;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.hero-form {
+  background: white;
+  color: black;
+  padding: 25px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.hero-form h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.hero-form p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.hero-form input,
+.hero-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #d8d6d6;
+  border-radius: 5px;
+}
+
+.hero-form button {
+  padding: 10px;
+  background: #00b140;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
 }
