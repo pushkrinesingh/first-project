@@ -250,3 +250,54 @@ h3 {
   line-height: 1.6;
   margin-bottom: 20px;
 }
+.anchor {
+  text-align: center;
+  margin: 60px 0;
+  }
+.anchor a {
+  text-decoration: none;
+  color: white;
+  background: #00b140;
+  padding: 10px 20px;
+}
+.main1{
+  background-image: url(https://pioverseas.com/wp-content/uploads/2022/06/scholarship-bg.png);
+  height: 100%;
+  width: 100%;
+
+}
+.leftimage{
+  width: 50%;
+  height: 100%;
+}
+.main1{
+  display: flex;
+  color: white;
+  gap: 12%;
+}
+.rightcontent{
+  width: 50%;
+}
+.rightcontent h2{
+  font-size: 30px;
+  padding-top: 20px;
+  margin: auto;
+  
+}
+.rightcontent p{
+  font-size: 20px;
+  padding-top: 20px;
+  margin: auto;
+  line-height: 1.6;
+}
+.flags{
+  padding-top: 30px;
+}
+.rightcontent a{
+  text-decoration: none;
+  color: white;
+  background: #00b140;
+  padding: 7px 15px;
+  margin-top: 20px;
+  display: inline-block;
+}
