@@ -176,14 +176,13 @@ h3 {
   font-size: 19px;
   padding-top: 20px;
 }
-.section h1 a {
-  color: rgb(118, 118, 118);
-  font-size: 15px;
-  font-weight: normal;
-}
 .section h1 {
   text-align: center;
   padding-top: 60px;
+  color: rgb(118, 118, 118);
+  font-size: 15px;
+  font-weight: normal;
+  text-decoration: underline;
 }
 .section h2 {
   text-align: center;
@@ -253,51 +252,242 @@ h3 {
 .anchor {
   text-align: center;
   margin: 60px 0;
-  }
+}
 .anchor a {
   text-decoration: none;
   color: white;
   background: #00b140;
   padding: 10px 20px;
 }
-.main1{
+.main1 {
   background-image: url(https://pioverseas.com/wp-content/uploads/2022/06/scholarship-bg.png);
   height: 100%;
   width: 100%;
-
 }
-.leftimage{
+.leftimage {
   width: 50%;
   height: 100%;
 }
-.main1{
+.main1 {
   display: flex;
   color: white;
-  gap: 12%;
+  gap: 10%;
 }
-.rightcontent{
+.rightcontent {
   width: 50%;
 }
-.rightcontent h2{
-  font-size: 30px;
+.rightcontent h2 {
+  font-size: 28px;
   padding-top: 20px;
   margin: auto;
-  
 }
-.rightcontent p{
+.rightcontent p {
   font-size: 20px;
   padding-top: 20px;
   margin: auto;
   line-height: 1.6;
 }
-.flags{
+.flags {
   padding-top: 30px;
 }
-.rightcontent a{
+.rightcontent a {
   text-decoration: none;
   color: white;
   background: #00b140;
   padding: 7px 15px;
-  margin-top: 20px;
+  margin-top: 50px;
   display: inline-block;
+}
+.fourdiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px 0 40px;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+.four {
+  padding: 30px 80px;
+  border: 1px solid #d8d6d6;
+}
+.four h2 {
+  font-size: 38px;
+  font-weight: 500;
+  color: #0d982b;
+  padding-bottom: 15px;
+}
+.four p {
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+}
+.bottom {
+  margin-left: 30px;
+  width: 50%;
+}
+.bottom h1 {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+  color: rgb(118, 118, 118);
+  font-size: 18px;
+  font-weight: normal;
+}
+.bottom h2 {
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+.bottom p {
+  padding-bottom: 40px;
+  font-size: 18px;
+  color: black;
+}
+.bottom a {
+  text-decoration: none;
+  color: #00b140;
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  border: 1px solid #00b140;
+}
+.collegeimages {
+  width: 55%;
+  gap: 15px;
+  margin-left: 16%;
+}
+.main2 {
+  background-image: url(https://pioverseas.com/wp-content/uploads/2022/06/partners-1.png);
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.below h1 {
+  text-align: center;
+  padding-top: 60px;
+  color: rgb(118, 118, 118);
+  font-size: 15px;
+  font-weight: normal;
+  text-decoration: underline;
+}
+.below h2 {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 22px;
+}
+.review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 30px;
+}
+.review h1 {
+  font-size: 22px;
+  font-weight: 500;
+}
+.review h2 {
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+.review p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: black;
+  padding-bottom: 25px;
+}
+.review1 {
+  border: 1px solid #d8d6d6;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 30px;
+}
+.review2 {
+  border: 1px solid #d8d6d6;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 30px;
+}
+.review3 {
+  border: 1px solid #d8d6d6;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 30px;
+}
+.news {
+  padding-top: 60px;
+  font-size: 12px;
+  /* padding-left: 20px; */
+}
+.news h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.main3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 60px 20px;
+  gap: 30px;
+}
+.news1 {
+  width: 50%;
+  height: 100%;
+  gap: 30px;
+  padding-bottom: 60px;
+  border: 1px solid #d8d6d6;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.news1 h2 {
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+.news1 p {
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 0 20px 20px 25px;
+}
+.news1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+.news1 img {
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+}
+.news2 {
+  width: 50%;
+  height: 100%;
+  gap: 30px;
+  padding-bottom: 60px;
+  border: 1px solid #d8d6d6;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.news2 h2 {
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+.news2 p {
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 0 20px 20px 25px;
+}
+.news2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+.news2 img {
+  width: 50%;
+  height: 50%;
 }
